@@ -1,0 +1,210 @@
+<!doctype html>
+<html ⚡ lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+
+        <!-- AMP TAG PRINCIPAL-->
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <!-- AMP TAG PRINCIPAL-->
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>I'M PRESS</title>
+
+        <!-- AMP Required mark-up -->
+        <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-custom>
+        *{margin:0;padding:0}
+        nav{display:none}
+        html{box-sizing:border-box;font-size:10px;font-family:'Roboto',sans-serif}
+        h1,h2,h3,h4,h5,h6,p{font-size:10px}
+        body{background-color:#fff}
+        .shadow-png{-webkit-filter:drop-shadow(-10px 15px 30px #000);filter:drop-shadow(-10px 15px 30px #000)}
+        .float{position:fixed;z-index:100;width:60px;height:60px;top:270px;right:40px;background-color:#4CAF50;color:#FFF;border-radius:50px;text-align:center;-webkit-filter:drop-shadow(8px 8px 10px #000);filter:drop-shadow(8px 8px 10px #000)}
+        .my-float{margin-top:22px}
+        .hvr-float{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}
+        .hvr-float:hover,.hvr-float:focus,.hvr-float:active{-webkit-transform:translateY(-8px);transform:translateY(-8px)}
+        .hvr-underline-from-center{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);position:relative;overflow:hidden}
+        .hvr-underline-from-center:before{content:"";position:absolute;z-index:-1;left:51%;right:51%;bottom:0;background:#222227;height:4px;-webkit-transition-property:left,right;transition-property:left,right;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}
+        .hvr-underline-from-center:hover:before,.hvr-underline-from-center:focus:before,.hvr-underline-from-center:active:before{left:0;right:0}
+        .ctas a{font-size:2rem;color:#fff;text-decoration:none}
+        .ctas a:hover{cursor:pointer}
+        .ctas a:active{text-decoration:none}
+        .ctas{background-color:#ca2332;text-align:center;font-weight:500;border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,0.7);padding:24px;display:flex;align-items:center;justify-content:center;padding:5px;width:250px;height:50px}
+        .cta1{position:absolute;z-index:4;bottom:70px;right:7vw}
+        .cta2{position:relative;top:90px;z-index:3;bottom:0;grid-column:6 / -1;grid-row:4 / 5}
+        .header-container{position:relative;align-items:center;padding:10px;display:grid;background-color:#fff;grid-template-columns:15vw 1fr 2fr;font-size:1.4rem;color:#ca2332}
+        .menu-header a{padding:10px;color:#ca2332;text-decoration:none}
+        .menu-header a:hover{cursor:pointer}
+        .menu-header a:active{text-decoration:none}
+        .logo-header{grid-column:1 / 2}
+        .logo-lead{grid-column:2 / 3;align-self:end}
+        .logo-lead h2{padding-left:5px;font-size:1.5rem}
+        .menu-header{justify-self:end;grid-column:3 / -1;align-items:center}
+        .conteudos{background-color:#fff}
+        .login-full-container{display:grid;grid-template-columns:300px 1fr;grid-template-rows:250px 400px}
+        .banner{grid-column:1 / 2;grid-row:1 / -1;background-color:#ca2332}
+        .form-full-containerG{grid-column:2 / -1;grid-row:1 / 2;padding:}
+        .form-container{background-color:#222225;padding:30px 10px;position:relative;z-index:5;display:grid;grid-template-columns:repeat(2,1fr);grid-template-rows:repeat(4,auto);justify-items:center}
+        .form-container p{grid-column:1 / 3;text-align:center;color:#fff}
+        .form-container h3{font-size:1.4rem;grid-column:1 / 3;text-align:center;color:#fff;font-weight:200}
+        .bkp-senha{position:relative;overflow:hidden;bottom:10px;left:10vw;text-decoration:none;cursor:pointer;grid-column:1 / 3}
+        .form-input{display:inline-flex;align-self:center;margin:0 auto;width:20vw;margin:10px}
+        form{grid-column:1 / 3;justify-items:center;align-items:center}
+        form input{padding:12px;border:1px solid #222227;border-radius:5px;width:100%;margin:0 auto}
+        form p{text-align:center;font-size:1.3rem;color:#222225;padding-bottom:10px}
+        form button{position:relative;display:inline-flex;align-self:center;padding:15px 40px;margin:10px 20px;background-color:#ca2332;color:#fff;border:1px solid #222225;border-radius:9px;box-shadow:0 10px 40px rgba(0,0,0,0.7);transform:translate(-50% -50%);text-align:center;cursor:pointer}
+        .registro-p{position:relative;display:inline-flex;align-self:center;padding:20px 0 0 10px;font-size:1.3rem}
+        .registro-btn{position:relative;bottom:12px;display:inline-flex;align-self:center;padding:10px 20px;border:1px solid gray;border-radius:5px;text-decoration:none;margin:0 0 0 20px}
+        .btns:link,.btns:visited{text-decoration:none;color:gray}
+        .conteudos-container{display:grid;grid-template-columns:1fr 3fr}
+        .conteudos-container h1{grid-column:1 / 3;text-align:center;font-size:3rem;font-weight:200;color:lightgray}
+        .conteudos-container h2{grid-column:1 / 3;text-align:center;font-size:2rem;font-weight:400;padding:20px}
+        .conteudos-container a{text-decoration:none;cursor:pointer}
+        .conteudos-container amp-img{grid-column:1 / 2;width:30vw;margin:0 30px}
+        .conteudos-container p{padding-right:30px;font-size:1.2rem;text-align:justify;line-height:180%}
+        .lista{position:fixed;z-index:100;bottom:80px;right:40px;text-align:right}
+        @media (min-width: 1500px) {
+        .conteudos-container{display:grid;grid-template-columns:1fr 3fr;grid-template-rows:40px 60px auto}
+        .conteudos-container amp-img{grid-column:1 / 2;grid-row:1 / 4;width:30vw;margin:0 30px}
+        .conteudos-container h1{grid-column:2 / 3;text-align:center;font-size:3rem;font-weight:200;color:lightgray}
+        .conteudos-container h2{grid-column:2 / 3;text-align:center;font-size:2rem;font-weight:400;padding:20px}
+        }
+        @media (max-width: 999px) {
+        .login-full-container{display:grid;grid-template-columns:300px 1fr;grid-template-rows:250px 400px}
+        .float{top:200px;right:40px}
+        .lista{bottom:40px}
+        }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <!-- AMP Required mark-up -->
+
+
+        <!-- AMP FORM TAG -->
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+
+        <script async custom-element="amp-anim" src="https://cdn.ampproject.org/v0/amp-anim-0.1.js"></script>
+
+
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    </head>
+
+
+<body>
+
+<!-- section header -->
+    <section class="header-container">
+        <div class="logo-header">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 1922 530">
+                    <path fill="#CA2332" d="M772.4 499.7h-30.7V166.2h120.1c25.1 0 46.6 9 64.6 26.9a88.2 88.2 0 0 1 26.7 64.8c0 25.1-8.9 46.6-26.7 64.6a88.6 88.6 0 0 1-64.6 26.7h-89.4v150.5zm0-181.1h89.4c16.7 0 31-6 43-17.9a58.1 58.1 0 0 0 17.7-42.7c0-16.9-5.9-31.3-17.7-43.2a58.6 58.6 0 0 0-43-17.9h-89.4v121.7zM1217.9 499.7h-34.4L1105.3 349h-79.9v150.5h-30.7V166.2h119.8c25.2 0 46.8 9 64.6 26.9a88 88 0 0 1 26.7 64.6c0 20.9-6.4 39.6-19.3 56.2a88.8 88.8 0 0 1-48.3 32.1l79.7 153.7zm-103.4-181.3c16.7 0 31-5.9 43-17.7 11.8-11.9 17.7-26.2 17.7-43s-5.9-31-17.7-43a58.6 58.6 0 0 0-43-17.9h-89.2v121.5h89.2zM1422.4 166.2v30.7h-139.6v120.3h110.3v30.7h-110.3v121.2h139.6v30.7h-170.2V166.2h170.2zM1547.2 502.8c-21.5-.9-41.3-6.6-59.2-17a90.6 90.6 0 0 1-41.6-47.1l28.8-10.5c5 13.3 15 24.1 30.2 32.3a100.2 100.2 0 0 0 43.2 11.8c23.7.9 43.5-5 59.5-17.9a54.3 54.3 0 0 0 22.5-40.4c1.2-29.1-25.4-51.3-79.9-66.7-39.3-11-67.4-26.3-84.3-46a70.7 70.7 0 0 1-18.1-50.6c1.4-31.7 14.9-55.4 40.4-71.1a126.3 126.3 0 0 1 73.6-16.5c34.7 1.5 62.4 13.5 83.1 35.8l-22.5 20.9c-15-16.3-35.7-25-62-26.2a99.1 99.1 0 0 0-56.2 12.1 53.7 53.7 0 0 0-25.8 46.5c-1.2 28.5 25.4 50.4 79.9 65.7 39.3 11 67.4 26.4 84.3 46.2a71.9 71.9 0 0 1 18.1 51.1 84 84 0 0 1-33.9 63.2 114.5 114.5 0 0 1-74.1 24.6l-6-.2zM1787.2 502.8c-21.5-.9-41.3-6.6-59.2-17a90.6 90.6 0 0 1-41.6-47.1l28.8-10.5c5 13.3 15 24.1 30.2 32.3a100.2 100.2 0 0 0 43.2 11.8c23.7.9 43.5-5 59.5-17.9a54.3 54.3 0 0 0 22.5-40.4c1.2-29.1-25.4-51.3-79.9-66.7-39.3-11-67.4-26.3-84.3-46a70.7 70.7 0 0 1-18.1-50.6c1.4-31.7 14.9-55.4 40.4-71.1a126.3 126.3 0 0 1 73.6-16.5c34.7 1.5 62.4 13.5 83.1 35.8l-22.5 20.9c-15-16.3-35.7-25-62-26.2a99.1 99.1 0 0 0-56.2 12.1 53.7 53.7 0 0 0-25.8 46.5c-1.2 28.5 25.4 50.4 79.9 65.7 39.3 11 67.4 26.4 84.3 46.2a71.9 71.9 0 0 1 18.1 51.1 84 84 0 0 1-33.9 63.2 114.5 114.5 0 0 1-74.1 24.6l-6-.2z"/>
+                <path fill="#CA2332" d="M23 24.8h123.5v473.5H23zM659.1 24.8h-4.4l-78 79.5-111 113.1-.4-.4-109.7-111.8-78.9-80.4h-44.5v473.5h123.4V281.5l23.6 24 21.7 22.1 64.4 65.6v.9l.4-.5 65.3-66.4 21.2-21.7 24.5-24.9v217.7h123.5V24.8zM157.7 24.8v50.3h31.7l-11.2 22.5-3.4 7.2 32.5-22.6 10.2-7.1V24.8z"/>
+            </svg>
+        </div>
+        <div class="logo-lead">
+            <h2>A SHORTER PATH FROM PITCH TO NEWS</h2>
+        </div>
+        <div class="menu-header">
+            <a class="menu-header-item1 menu-itens hvr-underline-from-center" href="index.html">HOME</a>
+            <a class="menu-header-item2 menu-itens hvr-underline-from-center" href="sobre.html">SOBRE NÓS</a>
+            <a class="menu-header-item3 menu-itens hvr-underline-from-center" href="https://www.udemy.com/im-press/" target="_blank">TUTORIAL</a>
+        </div>
+    </section>
+
+
+<section class="login-full-container">
+    <section class="banner">
+        <a href="https://www.udemy.com/im-press/">
+            <amp-anim width="300"
+                height="650"
+                src="img/gif-banner-V3.gif"
+                alt="an animation"
+                attribution="The Go gopher was designed by Reneee French and is licensed under CC 3.0 attributions.">
+            </amp-anim>
+        </a>
+    </section>
+
+<!-- section formulario -->
+    <section class="form-full-containerG">
+        <div class="form-container">
+            <h3>DIGITE SEUS DADOS PARA ACESSAR O I’M PRESS:</h3>
+            <form action="" method="post">
+                <div class="form-input">
+                    <input id="name" type="text" placeholder="EMAIL:">
+                </div>
+                <div class="form-input">
+                    <input id="senha" type="text" placeholder="SENHA:">
+                </div>
+                <button>ENTRAR</button>
+            </form>
+            <a href="https://www.i-mpress.com/impress/gt/view/index.php?forgot" class="bkp-senha btns">ESQUECI MINHA SENHA</a>
+            <p class="registro-p">É NOVO NO I'M PRESS?<span><a href="https://www.i-mpress.com/impress/gt/login/ccc_frame.php" class="registro-btn btns">REGISTRE-SE</a></span></p>
+            <p>PRECISANDO DE AJUDA? CLIQUE NO ÍCONE DE SUPORTE.</p>
+        </div>
+    </section>
+
+
+    <!-- section conteudos -->
+    <section class="conteudos">
+        <div class="conteudos-container">
+            <h1>DESTAQUE I'M PRESS</h1>
+            <h2>Commtech, a oportunidade que une comunicação e tecnologia</h2>
+            <amp-img src="img/cont1.jpg"
+                width="527"
+                height="351"
+                layout="responsive"
+                alt="Commtech">
+            </amp-img>
+            <p>Não existe almoço grátis.<br>Após a massificação da internet e, com ela, o conteúdo gratuito, o mercado de comunicação demorou muito tempo para assimilar a velha máxima.<br>O resultado foram fechamento de publicações e demissões em massa. Profissões passam por profundas revisões, sendo jornalistas e publicitários os mais atingidos.<br>Chegamos ao pior momento? Talvez sim. Talvez não.<br>É hora de nos apegarmos a outra velha máxima. Crises geram oportunidades. É o ensejo para os profissionais se reinventarem e o mercado se reerguer.<br>Como? O caminho é único: tecnologia.<br><a href="http://www.inova.jor.br/2018/09/05/oportunidade-commtech/">SAIBA MAIS</a></p>
+            <a href="sobre.html" class="lista">LISTA DE CONTEÚDOS I’MPRESS</a>
+        </div>
+    </section>
+
+
+</section>
+
+
+<!-- float button suporte -->
+<a href="#" class="float hvr-float">
+<i class="my-float">
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill-rule="evenodd" clip-rule="evenodd" image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" version="1.1" viewBox="0 0 2.74292 3.0257" xml:space="preserve">
+        <defs>
+        <style type="text/css">
+          .icon4-header-str0{stroke:#222225;stroke-width:.06499;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.9256}.icon4-header-fil0{fill:none}.icon4-header-fil1{fill:#222225;fill-rule:nonzero}
+        </style>
+        </defs>
+        <g id="icon4-header">
+        <g id="icon4-header-2872768361840">
+          <path d="M0.32652 2.22111L2.37201 2.22111" class="icon4-header-fil0 icon4-header-str0"/>
+          <path d="M1.34498 2.25358l-.86638 0 .00012-.06494.86638 0 .03125.02385-.03137.04109zm.00012-.06494c.01792 0 .03243.01454.0324.03247-.00003.01793-.0146.03247-.03252.03247l.00012-.06494zm-.1687-.70729l.19995.73114-.06262.01724-.19995-.73114.03137-.04109.03125.02385zm-.06262.01724c-.00472-.01728.00546-.03516.02275-.03992.01729-.00476.03515.0054.03987.02268l-.06262.01724zm-.83501-.04109l.86638 0-.00012.06494-.86638 0-.03125-.02385.03137-.04109zm-.00012.06494c-.01792 0-.03243-.01454-.0324-.03247.00003-.01793.0146-.03247.03252-.03247l-.00012.06494zm.1687.70729l-.19995-.73114.06262-.01724.19995.73114-.03137.04109-.03125-.02385zm.06262-.01724c.00472.01728-.00546.03516-.02275.03992-.01729.00476-.03515-.0054-.03987-.02268l.06262-.01724zM.71956 1.89015c-.01786 0-.03235-.01456-.03235-.0325 0-.01794.01449-.0325.03235-.0325l0 .065zm.12256 0l-.12256 0 0-.065.12256 0 0 .065zm0-.065c.01786 0 .03235.01456.03235.0325 0 .01794-.01449.0325-.03235.0325l0-.065z" class="icon4-header-fil1"/>
+          <path d="M2.02969 1.82271l0 0.13215c0,0.05562 -0.00694,0.09297 -0.09298,0.09297l-0.31255 0c-0.10004,0 -0.21009,0.03523 -0.20305,0.17328" class="icon4-header-fil0 icon4-header-str0"/>
+          <path d="M2.19451 2.22111c.04931-.0479.0972-.11303.0972-.18173l0-.29584c0-.10986-.12223-.20134-.24934-.21553-.09347-.01044-.15812.00058-.19441-.08875-.26333.12584-.41563.01397-.48602-.26626-.05015-.19968-.03467-.37572.0803-.50292.04991-.05522.13504-.08427.20809-.08491.1544-.00137.32689.10088.33062.24079l.00487.18259c.00254.09528-.02204.17017-.05333.21517M1.48508 1.42159c-.0326.08337-.10745.13293-.18653.14868" class="icon4-header-fil0 icon4-header-str0"/>
+          <path d="M1.36194 1.173c-0.08261,0.00225 -0.14369,-0.02542 -0.14369,-0.08029l0 -0.25358c0,-0.18927 0.208,-0.40572 0.39727,-0.40572l0.11411 0c0.1813,0 0.38458,0.20332 0.38458,0.38459l0 0.30006c0,0.05507 -0.06981,0.07968 -0.15543,0.05613" class="icon4-header-fil0 icon4-header-str0"/>
+          <path d="M1.21825.87824l.12446 0c.03017.02518.06986.03884.12489.04119.18954.0081.31909-.00532.35923-.05917.05788.12118.11176.18356.15899.14829M1.98221.87309L2.11421.87309M2.05153 1.18026c.00795.07075-.02036.16037-.10716.15706l-.17947-.00684" class="icon4-header-fil0 icon4-header-str0"/>
+          <path d="M1.79728 1.33048l-0.06476 0 0 0 0.00002 0.00043 0.00006 0.00046 0.00009 0.00044 0.00009 0.00032 0.00007 0.00019 0.00003 0.00007 -0.00003 -0.00006 -0.00008 -0.00011 -0.00022 -0.0003 -0.00037 -0.00044 -0.00044 -0.00047 -0.00058 -0.00055 -0.00073 -0.00063 -0.00089 -0.0007 -0.00101 -0.0007 -0.00115 -0.00074 -0.00131 -0.00077 -0.00142 -0.00075 -0.0015 -0.00072 -0.0017 -0.00074 -0.00181 -0.00072 -0.00182 -0.00064 -0.00202 -0.00062 -0.00209 -0.00059 -0.00215 -0.00051 -0.00225 -0.00047 -0.00233 -0.0004 -0.00241 -0.00034 -0.0025 -0.00028 -0.0025 -0.0002 -0.00257 -0.00011 -0.00265 -0.00004 0 -0.065 0.00461 0.00008 0.00459 0.00021 0.00456 0.00036 0.00446 0.00048 0.00441 0.00062 0.00437 0.00076 0.00431 0.00089 0.00425 0.00103 0.00415 0.00115 0.00408 0.00128 0.00408 0.00144 0.00391 0.00154 0.00384 0.00166 0.00382 0.00184 0.0037 0.00197 0.00359 0.00209 0.00353 0.00226 0.00343 0.00244 0.00329 0.00256 0.00321 0.00275 0.0031 0.00297 0.00294 0.00313 0.00275 0.0033 0.00262 0.00352 0.00244 0.00381 0.00219 0.00396 0.00193 0.00417 0.00165 0.00437 0.00133 0.00456 0.00099 0.00476 0.0006 0.00486 0.0002 0.00487 0 0zm-0.10293 0.07569l0 -0.065 0 0 0.00265 -0.00004 0.00257 -0.00011 0.0025 -0.0002 0.0025 -0.00028 0.00241 -0.00034 0.00233 -0.0004 0.00225 -0.00047 0.00215 -0.00051 0.00209 -0.00059 0.00202 -0.00062 0.00182 -0.00064 0.00181 -0.00072 0.0017 -0.00074 0.0015 -0.00072 0.00142 -0.00075 0.00131 -0.00077 0.00115 -0.00074 0.00101 -0.0007 0.00089 -0.0007 0.00073 -0.00063 0.00058 -0.00055 0.00044 -0.00047 0.00037 -0.00044 0.00022 -0.0003 0.00008 -0.00011 0.00003 -0.00006 -0.00003 0.00007 -0.00007 0.00019 -0.00009 0.00032 -0.00009 0.00044 -0.00006 0.00046 -0.00002 0.00043 0.06476 0 -0.0002 0.00487 -0.0006 0.00486 -0.00099 0.00476 -0.00133 0.00456 -0.00165 0.00437 -0.00193 0.00417 -0.00219 0.00396 -0.00244 0.00381 -0.00262 0.00352 -0.00275 0.0033 -0.00294 0.00313 -0.0031 0.00297 -0.00321 0.00275 -0.00329 0.00256 -0.00343 0.00244 -0.00353 0.00226 -0.00359 0.00209 -0.0037 0.00197 -0.00382 0.00184 -0.00384 0.00166 -0.00391 0.00154 -0.00408 0.00144 -0.00408 0.00128 -0.00415 0.00115 -0.00425 0.00103 -0.00431 0.00089 -0.00437 0.00076 -0.00441 0.00062 -0.00446 0.00048 -0.00456 0.00036 -0.00459 0.00021 -0.00461 0.00008 0 0zm-0.10293 -0.07569l0.06476 0 0 0 -0.00002 -0.00043 -0.00006 -0.00046 -0.00009 -0.00044 -0.00009 -0.00032 -0.00007 -0.00019 -0.00003 -0.00007 0.00003 0.00006 0.00008 0.00011 0.00022 0.0003 0.00037 0.00044 0.00044 0.00047 0.00058 0.00055 0.00073 0.00063 0.00089 0.0007 0.00103 0.00072 0.00112 0.00072 0.00129 0.00075 0.00145 0.00077 0.0015 0.00072 0.0017 0.00074 0.00181 0.00072 0.00182 0.00064 0.00202 0.00062 0.00209 0.00059 0.00215 0.00051 0.00225 0.00047 0.00233 0.0004 0.00241 0.00034 0.0025 0.00028 0.0025 0.0002 0.00257 0.00011 0.00265 0.00004 0 0.065 -0.00461 -0.00008 -0.00459 -0.00021 -0.00456 -0.00036 -0.00446 -0.00048 -0.00441 -0.00062 -0.00437 -0.00076 -0.00431 -0.00089 -0.00425 -0.00103 -0.00415 -0.00115 -0.00408 -0.00128 -0.00408 -0.00144 -0.00391 -0.00154 -0.00384 -0.00166 -0.00382 -0.00184 -0.00367 -0.00195 -0.00363 -0.00211 -0.00354 -0.00228 -0.00341 -0.00242 -0.00329 -0.00256 -0.00321 -0.00275 -0.0031 -0.00297 -0.00294 -0.00313 -0.00275 -0.0033 -0.00262 -0.00352 -0.00244 -0.00381 -0.00219 -0.00396 -0.00193 -0.00417 -0.00165 -0.00437 -0.00133 -0.00456 -0.00099 -0.00476 -0.0006 -0.00486 -0.0002 -0.00487 0 0zm0.10293 -0.07569l0 0.065 0 0 -0.00265 0.00004 -0.00257 0.00011 -0.0025 0.0002 -0.0025 0.00028 -0.00241 0.00034 -0.00233 0.0004 -0.00225 0.00047 -0.00215 0.00051 -0.00209 0.00059 -0.00202 0.00062 -0.00182 0.00064 -0.00181 0.00072 -0.0017 0.00074 -0.0015 0.00072 -0.00145 0.00077 -0.00129 0.00075 -0.00112 0.00072 -0.00103 0.00072 -0.00089 0.0007 -0.00073 0.00063 -0.00058 0.00055 -0.00044 0.00047 -0.00037 0.00044 -0.00022 0.0003 -0.00008 0.00011 -0.00003 0.00006 0.00003 -0.00007 0.00007 -0.00019 0.00009 -0.00032 0.00009 -0.00044 0.00006 -0.00046 0.00002 -0.00043 -0.06476 0 0.0002 -0.00487 0.0006 -0.00486 0.00099 -0.00476 0.00133 -0.00456 0.00165 -0.00437 0.00193 -0.00417 0.00219 -0.00396 0.00244 -0.00381 0.00262 -0.00352 0.00275 -0.0033 0.00294 -0.00313 0.0031 -0.00297 0.00321 -0.00275 0.00329 -0.00256 0.00341 -0.00242 0.00354 -0.00228 0.00363 -0.00211 0.00367 -0.00195 0.00382 -0.00184 0.00384 -0.00166 0.00391 -0.00154 0.00408 -0.00144 0.00408 -0.00128 0.00415 -0.00115 0.00425 -0.00103 0.00431 -0.00089 0.00437 -0.00076 0.00441 -0.00062 0.00446 -0.00048 0.00456 -0.00036 0.00459 -0.00021 0.00461 -0.00008 0 0z" class="icon4-header-fil1"/>
+        </g>
+        </g>
+    </svg>
+</i>
+</a>
+
+</body>
+</html>

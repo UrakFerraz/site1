@@ -1,0 +1,509 @@
+<!doctype html>
+<html ⚡ lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+
+        <!-- AMP TAG PRINCIPAL-->
+        <script async src="https://cdn.ampproject.org/v0.js"></script>
+        <!-- AMP TAG PRINCIPAL-->
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>I'M PRESS</title>
+
+        <!-- AMP Required mark-up -->
+        <link rel="canonical" href="http://example.ampproject.org/article-metadata.html">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <style amp-custom>
+        *{margin:0;padding:0}
+        nav{display:none}
+        html{box-sizing:border-box;font-size:10px;line-height:180%;font-family:'Roboto',sans-serif}
+        h1,h2,h3,h4,h5,h6,p{font-size:10px}
+        body{background-color:#fff}
+        .shadow-png{-webkit-filter:drop-shadow(-10px 15px 30px rgba(0,0,0,0.7));filter:drop-shadow(-10px 15px 30px rgba(0,0,0,0.7))}
+        .shadow-pngP{-webkit-filter:drop-shadow(-10px 15px 20px rgba(0,0,0,0.1));filter:drop-shadow(-10px 15px 20px rgba(0,0,0,0.1))}
+        .ctas a{font-size:2rem;color:#fff;text-decoration:none}
+        .ctas a:hover{cursor:pointer}
+        .ctas a:active{text-decoration:none}
+        .ctas{background-color:#ca2332;text-align:center;font-weight:500;border-radius:10px;box-shadow:0 10px 40px rgba(0,0,0,0.7);padding:24px;display:flex;align-items:center;justify-content:center;padding:5px;width:250px;height:50px}
+        .cta1{position:absolute;z-index:4;bottom:70px;right:7vw}
+        .cta2{position:relative;top:90px;z-index:3;bottom:0;grid-column:6 / -1;grid-row:4 / 5}
+        .hvr-underline-from-center{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);position:relative;overflow:hidden}
+        .hvr-underline-from-center:before{content:"";position:absolute;z-index:-1;left:51%;right:51%;bottom:0;background:#222227;height:4px;-webkit-transition-property:left,right;transition-property:left,right;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}
+        .hvr-underline-from-center:hover:before,.hvr-underline-from-center:focus:before,.hvr-underline-from-center:active:before{left:0;right:0}
+        .hvr-bounce-to-bottom{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);position:relative;-webkit-transition-property:color;transition-property:color;-webkit-transition-duration:.5s;transition-duration:.5s}
+        .hvr-bounce-to-bottom:before{content:"";position:absolute;z-index:-1;top:0;left:0;right:0;bottom:0;background:#222225;-webkit-transform:scaleY(0);transform:scaleY(0);-webkit-transform-origin:50% 0;transform-origin:50% 0;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-duration:.5s;transition-duration:.5s;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}
+        .hvr-bounce-to-bottom:hover,.hvr-bounce-to-bottom:focus,.hvr-bounce-to-bottom:active{color:#fff}
+        .hvr-bounce-to-bottom:hover:before,.hvr-bounce-to-bottom:focus:before,.hvr-bounce-to-bottom:active:before{-webkit-transform:scaleY(1);transform:scaleY(1);-webkit-transition-timing-function:cubic-bezier(0.52,1.64,0.37,0.66);transition-timing-function:cubic-bezier(0.52,1.64,0.37,0.66)}
+        .hvr-grow{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform}
+        .hvr-grow:hover,.hvr-grow:focus,.hvr-grow:active{-webkit-transform:scale(1.1);transform:scale(1.1)}
+        .hvr-float{display:inline-block;vertical-align:middle;-webkit-transform:perspective(1px) translateZ(0);transform:perspective(1px) translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:transform;transition-property:transform;-webkit-transition-timing-function:ease-out;transition-timing-function:ease-out}
+        .hvr-float:hover,.hvr-float:focus,.hvr-float:active{-webkit-transform:translateY(-8px);transform:translateY(-8px)}
+        .header-container{position:relative;align-items:center;padding:10px;display:grid;background-color:#fff;grid-template-columns:10vw 1fr 2fr;grid-template-rows:auto;font-size:1.4rem;color:#ca2332}
+        .menu-headerP{display:none}
+        .menu-header a{padding:10px;color:#ca2332;text-decoration:none}
+        .menu-header a:hover{cursor:pointer}
+        .menu-header a:active{text-decoration:none}
+        .menu-header-btn{font-size:1.8rem;padding:10px 20px!important;border:1px solid #ca2332;border-radius:5px}
+        .logo-header{grid-column:1 / 2}
+        .logo-lead{position:relative;bottom:2px;grid-column:2 / 3;align-self:end}
+        .logo-lead h2{padding-left:5px;font-size:1.5rem}
+        .menu-header{justify-self:end;grid-column:3 / -1;align-items:center}
+        .founders{display:grid;justify-content:center;justify-items:center;align-items:center;background-image:linear-gradient(to bottom,rgba(202,35,50,0.0) 0%,rgba(202,35,50,0.0) 50%,rgba(202,35,50,1) 100%),url(img/bg-institucional2.jpg);background-repeat:no-repeat;background-position:bottom;background-size:cover;padding-bottom:100px}
+        .founders-container{display:grid;grid-template-columns:auto repeat(2,1fr) auto;grid-template-rows:120px repeat(3,auto) 20px;width:50vw;align-self:center;justify-content:center;align-items:stretch;grid-auto-flow:column dense}
+        .founder1-container{position:relative;padding:30px;grid-column:2 / 3;grid-row:2 / 3}
+        .founder1{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(4,auto);justify-items:center;border-radius:4px;background-color:#fff}
+        .founder1 h1{color:gray;font-size:1.5rem;grid-column:1 / -1;grid-row:2 / 3}
+        .founder1 h2{color:silver;font-size:1.2rem;grid-column:1 / -1;grid-row:3 / 4;font-weight:300}
+        .founder1 p{padding:20px;font-size:1.3rem;grid-column:1 / -1;grid-row:4 / 5;text-align:center;color:gray}
+        .founder2-container{position:relative;padding:30px;grid-column:3 / 4;grid-row:2 / 3}
+        .founder2{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(4,auto);justify-items:center;border-radius:4px;background-color:#fff}
+        .founder2 h1{color:gray;font-size:1.5rem;grid-column:1 / -1;grid-row:2 / 3}
+        .founder2 h2{color:silver;font-size:1.2rem;grid-column:1 / -1;grid-row:3 / 4;font-weight:300}
+        .founder2 p{padding:20px;font-size:1.3rem;grid-column:1 / -1;grid-row:4 / 5;text-align:center;color:gray}
+        .founderImg{position:relative;bottom:30px;grid-column:1 / -1;grid-row:1 / 2;width:120px;height:120px;border-radius:50%}
+        .quem-somos{display:grid;width:55vw;padding:20px;background-color:#fff;border-radius:4px;place-self:center}
+        .quem-somos h1{font-size:4rem;font-weight:200;padding:20px 0 30px;color:lightgray;text-align:center}
+        .quem-somos p{font-weight:300;font-size:1.6rem;line-height:180%;text-align:justify}
+        .quem-somos span{font-weight:400}
+        .diagonal{position:relative;top:-2px;width:100vw;height:120px;-webkit-clip-path:polygon(0 0,100% 0,100% 10%,0% 100%);clip-path:polygon(0 0,100% 0,100% 10%,0% 100%);background-color:#ca2332}
+        .destaques{margin:0 6vw}
+        .destaques h1{padding-top:50px;font-size:6rem;font-weight:200;line-height:150%;text-align:center}
+        .destaques-container{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:20px;padding:50px 20px 20px;justify-content:center;align-items:center}
+        .materia-container{margin:20px;position:relative;display:grid;padding:20px;justify-content:center;align-items:center;background-color:#fff}
+        .materia-grid{display:grid;justify-content:center;align-items:center}
+        .materia-grid amp-img{place-self:center;width:15vw}
+        .materia-grid h1{font-size:1.6rem;font-weight:500;text-transform:uppercase;padding:0 0 20px}
+        .materia-grid p{text-align:center;font-size:1.3rem;padding:20px 0 30px}
+        .materia-grid a{position:absolute;padding:20px;right:10px;bottom:0;color:#ca2332;text-decoration:none}
+        .materia-grid a:hover{cursor:pointer}
+        .materia-grid a:active{text-decoration:none}
+
+
+        @media (min-width: 1281px) and (max-width: 1440px) {
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:70vw}
+        .quem-somos{width:50vw}
+        }
+        @media (min-width: 1025px) and (max-width: 1280px) {
+        .header-container{grid-template-columns:110px 1fr 2fr}
+        .logo-lead h2{font-size:1.2rem}
+        .menu-header a{font-size:1.1rem}
+        .servicos-container h1{position:relative;top:10px;font-size:8rem}
+        .servicos-title h1{position:relative;bottom:25px}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:60vw}
+        .quem-somos{width:80vw}
+        }
+        @media (min-width: 995px) and (max-width: 1024px) {
+        .header-container{grid-template-columns:110px 1fr 2fr}
+        .hero-video{height:570px}
+        .logo-lead h2{font-size:1.2rem}
+        .menu-header a{font-size:1rem}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:80vw}
+        .quem-somos{width:80vw}
+        }
+        @media (min-width: 832px) and (max-width: 994px) {
+        .header-container{grid-template-columns:110px 1fr 2fr}
+        .logo-lead h2{font-size:1rem}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:80vw}
+        .quem-somos{width:80vw}
+        .shadow-pngP{-webkit-filter:drop-shadow(-10px 7px 14px rgba(0,0,0,0.1));filter:drop-shadow(-10px 7px 14px rgba(0,0,0,0.1))}
+        .destaques{margin:0}
+        .destaques h1{font-size:5rem}
+        .destaques-container{grid-gap:5px}
+        .materia-container{padding:10px}
+        .materia-grid h1{font-size:1.3rem}
+        .materia-grid a{padding:10px}
+        }
+        @media (min-width: 768px) and (max-width: 831px) {
+        .header-container{grid-template-columns:110px 1fr 2fr}
+        .logo-lead h2{font-size:1rem}
+        .menu-header a{font-family:'Roboto Condensed',sans-serif;padding:0 4px;font-size:1rem}
+        .founders{background-image:linear-gradient(to bottom,rgba(202,35,50,0.0) 0%,rgba(202,35,50,0.0) 50%,rgba(202,35,50,1) 100%),url(img/bg-institucional3.jpg)}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:90vw}
+        .quem-somos{width:80vw}
+        .shadow-pngP{-webkit-filter:drop-shadow(-10px 7px 14px rgba(0,0,0,0.1));filter:drop-shadow(-10px 7px 14px rgba(0,0,0,0.1))}
+        .destaques{margin:0}
+        .destaques h1{font-size:5rem}
+        .destaques-container{font-family:'Roboto Condensed',sans-serif;grid-gap:5px}
+        .materia-container{padding:10px}
+        .materia-grid h1{font-weight:700;font-size:1.3rem}
+        .materia-grid p{font-size:1.2rem;padding:20px 10px 30px}
+        .materia-grid a{padding:10px}
+        }
+        @media (min-width: 671px) and (max-width: 767px) {
+        .header-container{grid-template-columns:110px 1fr 2fr}
+        .logo-lead{bottom:0}
+        .hero-video{height:400px}
+        .logo-lead h2{font-family:'Roboto Condensed',sans-serif;font-size:.9rem}
+        .menu-header a{font-family:'Roboto Condensed',sans-serif;padding:0 4px;font-size:.8rem}
+        .founders{background-image:linear-gradient(to bottom,rgba(202,35,50,0.0) 0%,rgba(202,35,50,0.0) 50%,rgba(202,35,50,1) 100%),url(img/bg-institucional3.jpg)}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:70vw}
+        .founder1-container{padding:20px}
+        .founder1 p{padding:10px;font-size:1.1rem}
+        .founder2-container{padding:20px}
+        .founder2 p{padding:10px;font-size:1.1rem}
+        .founderImg{width:90px;height:90px}
+        .quem-somos{width:80vw}
+        .shadow-pngP{-webkit-filter:drop-shadow(0px 0px 7px rgba(0,0,0,0.1));filter:drop-shadow(0px 0px 7px rgba(0,0,0,0.1))}
+        .destaques{margin:0}
+        .destaques h1{font-size:5rem}
+        .destaques-container{font-family:'Roboto Condensed',sans-serif;grid-gap:5px}
+        .materia-container{padding:10px;margin:10px}
+        .materia-grid h1{font-weight:700;font-size:1.3rem}
+        .materia-grid p{font-size:1.2rem;padding:20px 0 30px}
+        .materia-grid a{padding:10px}
+        }
+        @media (min-width: 550px) and (max-width: 670px) {
+        .logo-header svg{height:40px}
+        .menu-header{grid-row:1 / 2}
+        .logo-lead h2{display:none;font-family:'Roboto Condensed',sans-serif;font-size:.9rem}
+        .menu-header a{font-family:'Roboto Condensed',sans-serif;padding:0 4px;font-size:1rem;color:#cdcdcd}
+        .founders{background-image:linear-gradient(to bottom,rgba(202,35,50,0.0) 0%,rgba(202,35,50,0.0) 50%,rgba(202,35,50,1) 100%),url(img/bg-institucional3.jpg)}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:86vw}
+        .founder1-container{padding:20px}
+        .founder1 p{padding:10px;font-size:1.1rem}
+        .founder2-container{padding:20px}
+        .founder2 p{padding:10px;font-size:1.1rem}
+        .founderImg{width:80px;height:80px}
+        .quem-somos{width:80vw}
+        .shadow-pngP{-webkit-filter:drop-shadow(0px 0px 7px rgba(0,0,0,0.1));filter:drop-shadow(0px 0px 7px rgba(0,0,0,0.1))}
+        .destaques{margin:0}
+        .destaques h1{font-size:5rem}
+        .destaques-container{font-family:'Roboto Condensed',sans-serif;grid-gap:5px}
+        .materia-container{padding:10px;margin:5px}
+        .materia-grid h1{font-weight:700;font-size:1rem}
+        .materia-grid p{font-size:1.1rem;padding:20px 5px 30px}
+        .materia-grid a{padding:10px}
+        }
+        @media (min-width: 481px) and (max-width: 549px) {
+        .logo-header svg{height:40px}
+        .menu-header{grid-row:1 / 2}
+        .logo-lead h2{display:none;font-family:'Roboto Condensed',sans-serif;font-size:.9rem}
+        .menu-header a{font-family:'Roboto Condensed',sans-serif;padding:0 4px;font-size:1rem;color:#cdcdcd}
+        .shadow-png{-webkit-filter:drop-shadow(0px 10px 10px rgba(0,0,0,0.4));filter:drop-shadow(0px 10px 10px rgba(0,0,0,0.4))}
+        .founders{background-image:linear-gradient(to bottom,rgba(202,35,50,0.0) 0%,rgba(202,35,50,0.0) 50%,rgba(202,35,50,1) 100%),url(img/bg-institucional3.jpg)}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:86vw}
+        .founder1-container{position:relative;z-index:3;padding:15px}
+        .founder1 p{padding:10px;font-size:1.1rem}
+        .founder2-container{position:relative;z-index:3;padding:15px}
+        .founder2 p{padding:10px;font-size:1.1rem}
+        .founderImg{width:80px;height:80px}
+        .quem-somos{width:80vw}
+        .quem-somos p{font-size:1.1rem}
+        .founders{background-image:linear-gradient(to bottom,rgba(202,35,50,0.0) 0%,rgba(202,35,50,0.0) 50%,rgba(202,35,50,1) 100%),url(img/bg-institucional3.jpg)}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:70vw}
+        .founder1-container{padding:20px}
+        .founder1 p{padding:10px;font-size:1.1rem}
+        .founder2-container{padding:20px}
+        .founder2 p{padding:10px;font-size:1.1rem}
+        .founderImg{width:90px;height:90px}
+        .quem-somos{width:80vw}
+        .shadow-pngP{-webkit-filter:drop-shadow(0px 0px 7px rgba(0,0,0,0.1));filter:drop-shadow(0px 0px 7px rgba(0,0,0,0.1))}
+        .destaques{margin:0}
+        .destaques h1{font-size:5rem}
+        .destaques-container{grid-template-columns:repeat(2,1fr);font-family:'Roboto Condensed',sans-serif;grid-gap:0}
+        .materia-container{padding:10px;margin:10px}
+        .materia-grid amp-img{place-self:center;width:30vw}
+        .materia-grid h1{font-weight:700;font-size:1.3rem}
+        .materia-grid p{font-size:1.2rem;padding:20px 10px 30px}
+        .materia-grid a{padding:10px}
+        }
+        @media (min-width: 426px) and (max-width: 480px) {
+        .logo-header svg{height:40px}
+        .menu-header{grid-row:1 / 2}
+        .logo-lead h2{display:none;font-family:'Roboto Condensed',sans-serif;font-size:.9rem}
+        .menu-header a{font-family:'Roboto Condensed',sans-serif;padding:0 4px;font-size:1rem;color:#cdcdcd}
+        .shadow-png{-webkit-filter:drop-shadow(0px 10px 10px rgba(0,0,0,0.4));filter:drop-shadow(0px 10px 10px rgba(0,0,0,0.4))}
+        .founders{font-family:'Roboto Condensed',sans-serif;background-image:linear-gradient(to bottom,rgba(202,35,50,0.0) 0%,rgba(202,35,50,0.0) 50%,rgba(202,35,50,1) 100%),url(img/bg-institucional3.jpg)}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:95vw}
+        .founder1-container{position:relative;z-index:3;padding:19px 10px}
+        .founder1 p{padding:9px;font-size:1.1rem}
+        .founder2-container{position:relative;z-index:3;padding:19px 10px}
+        .founder2 h1{text-align:center}
+        .founder2 p{padding:9px;font-size:1.1rem}
+        .founderImg{width:80px;height:80px}
+        .quem-somos{width:80vw}
+        .quem-somos p{font-size:1.2rem}
+        .shadow-pngP{-webkit-filter:drop-shadow(0px 0px 7px rgba(0,0,0,0.1));filter:drop-shadow(0px 0px 7px rgba(0,0,0,0.1))}
+        .destaques{margin:0}
+        .destaques h1{font-size:5rem}
+        .destaques-container{grid-template-columns:repeat(2,1fr);font-family:'Roboto Condensed',sans-serif;grid-gap:0}
+        .materia-container{padding:10px;margin:10px}
+        .materia-grid amp-img{place-self:center;width:30vw}
+        .materia-grid h1{font-weight:700;font-size:1.3rem}
+        .materia-grid p{font-size:1.2rem;padding:20px 10px 30px}
+        .materia-grid a{padding:10px}
+        }
+        @media (min-width: 375px) and (max-width: 425px) {
+        .logo-header svg{height:40px}
+        .menu-header{grid-row:1 / 2}
+        .logo-lead h2{display:none;font-family:'Roboto Condensed',sans-serif;font-size:.9rem}
+        .menu-header a{font-family:'Roboto Condensed',sans-serif;padding:0 4px;font-size:1rem;color:#cdcdcd}
+        .shadow-png{-webkit-filter:drop-shadow(0px 10px 10px rgba(0,0,0,0.4));filter:drop-shadow(0px 10px 10px rgba(0,0,0,0.4))}
+        .founders{font-family:'Roboto Condensed',sans-serif;background-image:linear-gradient(to bottom,rgba(202,35,50,0.0) 0%,rgba(202,35,50,0.0) 50%,rgba(202,35,50,1) 100%),url(img/bg-institucional3.jpg)}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:95vw}
+        .founder1-container{position:relative;z-index:3;padding:19px 10px}
+        .founder1 p{padding:15px;font-size:1rem;line-height:149%}
+        .founder2-container{position:relative;z-index:3;padding:19px 10px}
+        .founder2 h1{text-align:center}
+        .founder2 p{padding:15px;font-size:1rem}
+        .founderImg{width:80px;height:80px}
+        .quem-somos{width:80vw}
+        .quem-somos p{font-size:1.2rem}
+        .shadow-pngP{-webkit-filter:drop-shadow(0px 0px 14px rgba(0,0,0,0.17));filter:drop-shadow(0px 0px 14px rgba(0,0,0,0.17))}
+        .destaques{margin:0}
+        .destaques h1{font-size:5rem}
+        .destaques-container{grid-template-columns:1fr;font-family:'Roboto Condensed',sans-serif;grid-gap:20px}
+        .materia-container{padding:10px;margin:10px}
+        .materia-grid amp-img{place-self:center;width:50vw}
+        .materia-grid h1{font-weight:700;font-size:1.2rem}
+        .materia-grid p{font-size:1.1rem;padding:20px 10px 30px}
+        .materia-grid a{padding:10px}
+        }
+        @media (min-width: 320px) and (max-width: 374px) {
+        .logo-header svg{height:40px}
+        .menu-header{grid-row:1 / 2}
+        .logo-lead h2{display:none;font-family:'Roboto Condensed',sans-serif;font-size:.9rem}
+        .menu-header a{font-family:'Roboto Condensed',sans-serif;padding:0 4px;font-size:1rem;color:#cdcdcd}
+        .shadow-png{-webkit-filter:drop-shadow(0px 10px 10px rgba(0,0,0,0.4));filter:drop-shadow(0px 10px 10px rgba(0,0,0,0.4))}
+        .founders{font-family:'Roboto Condensed',sans-serif;background-image:linear-gradient(to bottom,rgba(202,35,50,0.0) 0%,rgba(202,35,50,0.0) 50%,rgba(202,35,50,1) 100%),url(img/bg-institucional3.jpg)}
+        .founders-container{grid-template-rows:70px repeat(3,auto) 20px;width:95vw}
+        .founder1-container{position:relative;z-index:3;padding:19px 10px}
+        .founder1 p{padding:6px;font-size:1.1rem}
+        .founder2-container{position:relative;z-index:3;padding:19px 10px}
+        .founder2 h1{text-align:center}
+        .founder2 p{padding:6px;font-size:1.1rem}
+        .founderImg{width:80px;height:80px}
+        .quem-somos{width:80vw}
+        .quem-somos p{font-size:1.2rem}
+        .shadow-pngP{-webkit-filter:drop-shadow(0px 0px 14px rgba(0,0,0,0.17));filter:drop-shadow(0px 0px 14px rgba(0,0,0,0.17))}
+        .destaques{margin:0}
+        .destaques h1{font-size:5rem}
+        .destaques-container{grid-template-columns:1fr;font-family:'Roboto Condensed',sans-serif;grid-gap:20px}
+        .materia-container{padding:10px;margin:10px}
+        .materia-grid amp-img{place-self:center;width:50vw}
+        .materia-grid h1{font-weight:700;font-size:1.2rem}
+        .materia-grid p{font-size:1.1rem;padding:20px 10px 30px}
+        .materia-grid a{padding:10px}
+        }
+    </style>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "NewsArticle",
+        "headline": "Open-source framework for publishing content",
+        "datePublished": "2015-10-07T12:02:41Z",
+        "image": [
+          "logo.jpg"
+        ]
+      }
+    </script>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+        <!-- AMP Required mark-up -->
+
+        <!-- AMP CAROUSEL TAG -->
+        <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+
+        <!-- AMP ACCORRDION TAG -->
+        <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+
+        <!-- AMP FORM TAG -->
+        <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <!-- google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+    </head>
+
+
+<body>
+
+<!-- section header -->
+    <section class="header-container">
+        <div class="logo-header">
+            <svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 1922 530">
+                    <path fill="#CA2332" d="M772.4 499.7h-30.7V166.2h120.1c25.1 0 46.6 9 64.6 26.9a88.2 88.2 0 0 1 26.7 64.8c0 25.1-8.9 46.6-26.7 64.6a88.6 88.6 0 0 1-64.6 26.7h-89.4v150.5zm0-181.1h89.4c16.7 0 31-6 43-17.9a58.1 58.1 0 0 0 17.7-42.7c0-16.9-5.9-31.3-17.7-43.2a58.6 58.6 0 0 0-43-17.9h-89.4v121.7zM1217.9 499.7h-34.4L1105.3 349h-79.9v150.5h-30.7V166.2h119.8c25.2 0 46.8 9 64.6 26.9a88 88 0 0 1 26.7 64.6c0 20.9-6.4 39.6-19.3 56.2a88.8 88.8 0 0 1-48.3 32.1l79.7 153.7zm-103.4-181.3c16.7 0 31-5.9 43-17.7 11.8-11.9 17.7-26.2 17.7-43s-5.9-31-17.7-43a58.6 58.6 0 0 0-43-17.9h-89.2v121.5h89.2zM1422.4 166.2v30.7h-139.6v120.3h110.3v30.7h-110.3v121.2h139.6v30.7h-170.2V166.2h170.2zM1547.2 502.8c-21.5-.9-41.3-6.6-59.2-17a90.6 90.6 0 0 1-41.6-47.1l28.8-10.5c5 13.3 15 24.1 30.2 32.3a100.2 100.2 0 0 0 43.2 11.8c23.7.9 43.5-5 59.5-17.9a54.3 54.3 0 0 0 22.5-40.4c1.2-29.1-25.4-51.3-79.9-66.7-39.3-11-67.4-26.3-84.3-46a70.7 70.7 0 0 1-18.1-50.6c1.4-31.7 14.9-55.4 40.4-71.1a126.3 126.3 0 0 1 73.6-16.5c34.7 1.5 62.4 13.5 83.1 35.8l-22.5 20.9c-15-16.3-35.7-25-62-26.2a99.1 99.1 0 0 0-56.2 12.1 53.7 53.7 0 0 0-25.8 46.5c-1.2 28.5 25.4 50.4 79.9 65.7 39.3 11 67.4 26.4 84.3 46.2a71.9 71.9 0 0 1 18.1 51.1 84 84 0 0 1-33.9 63.2 114.5 114.5 0 0 1-74.1 24.6l-6-.2zM1787.2 502.8c-21.5-.9-41.3-6.6-59.2-17a90.6 90.6 0 0 1-41.6-47.1l28.8-10.5c5 13.3 15 24.1 30.2 32.3a100.2 100.2 0 0 0 43.2 11.8c23.7.9 43.5-5 59.5-17.9a54.3 54.3 0 0 0 22.5-40.4c1.2-29.1-25.4-51.3-79.9-66.7-39.3-11-67.4-26.3-84.3-46a70.7 70.7 0 0 1-18.1-50.6c1.4-31.7 14.9-55.4 40.4-71.1a126.3 126.3 0 0 1 73.6-16.5c34.7 1.5 62.4 13.5 83.1 35.8l-22.5 20.9c-15-16.3-35.7-25-62-26.2a99.1 99.1 0 0 0-56.2 12.1 53.7 53.7 0 0 0-25.8 46.5c-1.2 28.5 25.4 50.4 79.9 65.7 39.3 11 67.4 26.4 84.3 46.2a71.9 71.9 0 0 1 18.1 51.1 84 84 0 0 1-33.9 63.2 114.5 114.5 0 0 1-74.1 24.6l-6-.2z"/>
+                <path fill="#CA2332" d="M23 24.8h123.5v473.5H23zM659.1 24.8h-4.4l-78 79.5-111 113.1-.4-.4-109.7-111.8-78.9-80.4h-44.5v473.5h123.4V281.5l23.6 24 21.7 22.1 64.4 65.6v.9l.4-.5 65.3-66.4 21.2-21.7 24.5-24.9v217.7h123.5V24.8zM157.7 24.8v50.3h31.7l-11.2 22.5-3.4 7.2 32.5-22.6 10.2-7.1V24.8z"/>
+            </svg>
+        </div>
+        <div class="logo-lead">
+            <h2>A SHORTER PATH FROM PITCH TO NEWS</h2>
+        </div>
+        <div class="menu-header menu-headerG">
+            <a class="menu-header-item3 menu-itens hvr-underline-from-center" href="index.html">HOME</a>
+            <a class="menu-header-item1 menu-itens hvr-underline-from-center" href="sobre.html">SOBRE NÓS</a>
+            <a class="menu-header-item5 menu-itens hvr-underline-from-center" href="#udemy">TUTORIAL</a>
+        </div>
+    </section>
+
+
+<!-- section founders block -->
+<section class="founders">
+    <div class="founders-container">
+        <div class="founder1-container hvr-grow">
+            <div class="founder1 shadow-png">
+                <amp-img class="founderImg" src="img/ceo.jpg"
+                    width="120"
+                    height="120"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <h1>Fernanda Lara</h1>
+                <h2>Fundadora & CEO</h2>
+                <p>Jornalista formada pela Universidade de Brasília (UnB) com Master em Comunicação Empresarial em Grenoble, França.</p>
+            </div>
+        </div>
+        <div class="founder2-container hvr-grow">
+            <div class="founder2 shadow-png">
+                <amp-img class="founderImg" src="img/cio.jpg"
+                    width="120"
+                    height="120"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <h1>Flávio Morsoletto</h1>
+                <h2>Fundador & CIO</h2>
+                <p>Engenheiro de Software pela DeVry (EUA); Engenheiro Eletrônico pelo MITx (EUA) e Estatístico pela Udacity.</p>
+            </div>
+        </div>
+    </div>
+    <span></span>
+
+    <div class="quem-somos shadow-png hvr-float">
+        <h1>MISSÃO</h1>
+        <p><span>Realizar conexões eficientes e inteligentes entre Comunicadores, da forma mais ágil e intuitiva possível, com alta qualidade.</span> No I’M Press, isso é mais que nosso objetivo... é um mantra!<br>
+        Em um mundo em que as tecnologias são cada vez mais úteis para as pessoas e para os negócios, impactando positivamente a todos, nos consideramos uma <span>#CommTech: desenvolvemos inovações tecnológicas voltadas para o mercado de comunicação.</span> Pensamos e agimos como uma empresa tech, que conhece a fundo o universo da Comunicação e das Mídias.</p>
+    </div>
+</section>
+
+    <div class="diagonal"></div>
+
+
+    
+<section class="destaques">
+    <h1>CONTEÚDO I'M PRESS</h1>
+    <div class="destaques-container">
+        <div class="materia-container shadow-pngP hvr-bounce-to-bottom">
+            <div class="materia-grid">
+                <h1>Commtech, a oportunidade que une comunicação e tecnologia.</h1>
+                <amp-img src="img/content1.jpg"
+                    width="253"
+                    height="145"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <p>Após a massificação da internet e, com ela, o conteúdo gratuito, o mercado de comunicação demorou...</p>
+                <a href="http://www.inova.jor.br/2018/09/05/oportunidade-commtech/">SAIBA MAIS</a>
+            </div>
+        </div>
+        <div class="materia-container shadow-pngP hvr-bounce-to-bottom">
+            <div class="materia-grid">
+                <h1>A reviravolta da comunicação por e-mail: do spam ao protagonismo.</h1>
+                <amp-img src="img/content2.jpg"
+                    width="253"
+                    height="145"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <p>Muito se fala em quanto tempo as pessoas permanecem em seus smartphones assistindo à Netflix ou em conversas do...</p>
+                <a href="https://www.meioemensagem.com.br/home/opiniao/2018/07/24/a-reviravolta-da-comunicacao-por-e-mail-do-spam-ao-protagonismo.html">SAIBA MAIS</a>
+            </div>
+        </div>
+        <div class="materia-container shadow-pngP hvr-bounce-to-bottom">
+            <div class="materia-grid">
+                <h1>#CommTech: onde a Comunicação e a Tecnologia se encontram.</h1>
+                <amp-img src="img/content3.jpg"
+                    width="253"
+                    height="145"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <p>O ‘start’ para nosso primeiro texto no portal OCI passa por explicar como criamos o termo que dá nome para a coluna...</p>
+                <a href="http://observatoriodacomunicacao.org.br/colunas/commtech-onde-comunicacao-e-tecnologia-se-encontram-por-fernanda-lara/">SAIBA MAIS</a>
+            </div>
+        </div>
+        <div class="materia-container shadow-pngP hvr-bounce-to-bottom">
+            <div class="materia-grid">
+                <h1>#CommTech: proteção de dados na rede – o que muda na vida do assessor de RP.</h1>
+                <amp-img src="img/content4.jpg"
+                    width="253"
+                    height="145"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <p>Desde meados de julho está para análise e sanção presidencial o projeto que altera o Marco Civil da Internet...</p>
+                <a href="http://observatoriodacomunicacao.org.br/colunas/protecao-de-dados-na-rede-o-que-muda-na-vida-do-assessor-de-rp/">SAIBA MAIS</a>
+            </div>
+        </div>
+        <div class="materia-container shadow-pngP hvr-bounce-to-bottom">
+            <div class="materia-grid">
+                <h1>#CommTech: tudo o que é preciso saber para começar um negócio hoje.</h1>
+                <amp-img src="img/content5.jpg"
+                    width="253"
+                    height="145"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <p>Hoje dedicamos nossa coluna para algo mais prático sobre tecnologia: os primeiros passos e fundamentos para...</p>
+                <a href="http://observatoriodacomunicacao.org.br/colunas/commtech-tudo-o-que-e-preciso-saber-de-tecnologia-digital-para-comecar-um-negocio-hoje/">SAIBA MAIS</a>
+            </div>
+        </div>
+        <div class="materia-container shadow-pngP hvr-bounce-to-bottom">
+            <div class="materia-grid">
+                <h1>O I’M Press é um serviço online de mailing e distribuição de releases.</h1>
+                <amp-img src="img/content6.jpg"
+                    width="253"
+                    height="145"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <p>Facilita o disparo de notícias e dá visibilidade a pautas de agências, assessores de imprensa, Relações Públicas...</p>
+                <a href="https://projetodraft.com/o-im-press-e-um-servico-online-de-mailing-e-distribuicao-de-releases/">SAIBA MAIS</a>
+            </div>
+        </div>
+        <div class="materia-container shadow-pngP hvr-bounce-to-bottom">
+            <div class="materia-grid">
+                <h1>Seu e-mail voltou? Aprenda a identificar os erros e quais os motivos!</h1>
+                <amp-img src="img/content7.jpg"
+                    width="253"
+                    height="145"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <p>Um e-mail que volta nem sempre significa contato desatualizado… são inúmeras possibilidades. Elaboramos este gráfico para...</p>
+                <a href="https://medium.com/@IMPressCommTech/seu-e-mail-voltou-aprenda-a-identificar-os-motivos-423f8421eec2">SAIBA MAIS</a>
+            </div>
+        </div>
+        <div class="materia-container shadow-pngP hvr-bounce-to-bottom">
+            <div class="materia-grid">
+                <h1>Os caminhos dos mailings de tecnologia para os jornalistas e influencers.</h1>
+                <amp-img src="img/content8.jpg"
+                    width="253"
+                    height="145"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <p>Trabalhar de forma adequada com o tema da Tecnologia com jornalistas e influencers é um exercício de “quebrar a cabeça”...</p>
+                <a href="https://medium.com/@IMPressCommTech/os-caminhos-dos-mailings-tecnologia-15371d4b2bec">SAIBA MAIS</a>
+            </div>
+        </div>
+        <div class="materia-container shadow-pngP hvr-bounce-to-bottom">
+            <div class="materia-grid">
+                <h1>Muito além do www: um guia sobre domínio para comunicadores.</h1>
+                <amp-img src="img/content1.jpg"
+                    width="253"
+                    height="145"
+                    layout="responsive"
+                    alt="">
+                </amp-img>
+                <p>Com o enorme alcance que a internet proporciona criou-se a impressão que é muito fácil fazer sucesso e atingir...</p>
+                <a href="https://medium.com/@IMPressCommTech/muito-al%C3%A9m-do-www-um-guia-sobre-dom%C3%ADnio-para-comunicadores-9f67d324a6c6">SAIBA MAIS</a>
+            </div>
+    </div>
+</section>
+
+</body>
+</html>
