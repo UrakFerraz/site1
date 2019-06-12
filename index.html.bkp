@@ -1403,10 +1403,6 @@ function validateForm1()
       <!-- amp-fx-collection extension -->
       <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>
 
-
-      <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
-
-
         <meta name="description" content="Solução que reúne, em um único lugar, tudo o que os comunicadores precisam. Serviço online 24h/7 composto de mailing de veículos de imprensa e influenciadores, editor e disparador de releases, gestão de contatos e relacionamentos, relatório de produtividade das pautas e buscador de jornalistas. Tecnologia antispam e segurança na proteção de dados.">
 
         <link rel="apple-touch-icon" sizes="57x57" href="img/fav/apple-icon-57x57.png">
@@ -1518,15 +1514,14 @@ function validateForm1()
 
 <!-- sections hero video -->
     <section class="hero-video">
-<!--         <amp-vimeo data-videoid="288553284"
+        <amp-vimeo data-videoid="288553284"
           layout="responsive"
           width="1920"
           height="1080"
           loop="1"
           autoloop
           autoplay>
-        </amp-vimeo> -->
-      <amp-youtube width="1920" height="1080" layout="responsive" data-videoid="3oIbBmLM8ug" loop="1" loop autoloop autoplay></amp-youtube>
+        </amp-vimeo>
     </section>
 
 <!-- sections clains -->
